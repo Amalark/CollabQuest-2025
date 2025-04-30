@@ -38,16 +38,14 @@ const Pomodro = () => {
   };
 
   return (
-    <div className="flex flex-col gap-6 items-center justify-center">
-      <h1
-        className={`text-4xl font-bold ${
-          !focusMode ? "text-orange-100" : "text-orange-50"
-        }`}
-      >
-        Pomodro Timer
-      </h1>
+    <div className="flex flex-col gap-6 items-center justify-center mt-5">
+      <h1 className={`text-4xl font-bold text-white`}>Pomodro Timer</h1>
       <div>
-        <div className="flex flex-col gap-4 items-center justify-center p-10 px-16 bg-red-500 rounded-lg shadow-lg">
+        <div
+          className={`flex flex-col gap-4 items-center justify-center p-10 px-16 ${
+            !focusMode ? "bg-red-500" : "bg-red-400"
+          } rounded-lg shadow-lg`}
+        >
           <h2 className=" text-5xl font-bold text-orange-50">
             {formatTime(time)}
           </h2>
