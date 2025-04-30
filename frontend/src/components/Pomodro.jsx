@@ -70,7 +70,9 @@ const Pomodro = () => {
       <div className="max-w-[30%] w-full">
         <Textarea
           placeholder="What you did today?"
-          className={"bg-white border border-orange-300 hover:bg-orange-50"}
+          className={
+            "bg-white border-4 italic border-dashed border-orange-300 hover:bg-orange-50"
+          }
         />
       </div>
     </div>

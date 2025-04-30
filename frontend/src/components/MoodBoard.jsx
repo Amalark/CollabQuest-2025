@@ -2,28 +2,30 @@ import React from "react";
 
 const colors = [
   "lightcoral",
-  "softyellow",
+  "khaki",
   "mintgreen",
   "lightblue",
-  "wheat",
+  "violet",
   "lightpink",
   "palegreen",
   "gold",
   "lavender",
-  "pastelred",
+  "salmon",
   "plum",
-  "softpeach",
-  "pink",
+  "lightred",
+  "mistyrose",
   "powderblue",
-  "lightorange",
+  "lightyellow",
 ];
 
 const highlightedColor = "lightpink";
 
 const MoodBoard = () => {
   return (
-    <div className="bg-orange-200 p-4 rounded-2xl flex flex-col shadow-xl m-4">
-      <h1 className="text-2xl font-bold mb-4 text-center">Mood Board</h1>
+    <div className="bg-orange-200 p-4 rounded-2xl flex flex-col shadow-xl m-4 mt-12 py-10">
+      <h1 className="text-4xl font-bold mb-4 text-white text-center">
+        Mood Board
+      </h1>
 
       <div>
         <h3 className="text-center text-xl font-bold text-orange-400 mb-2">
