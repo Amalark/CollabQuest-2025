@@ -117,4 +117,10 @@
   body {
     @apply bg-background text-foreground;
   }
+  .dark-bg {
+    @apply bg-gradient-to-b from-[#EB5A3C] to-[#E7D283];
+  }
+  .light-bg {
+    @apply bg-gradient-to-b from-[#DF9755] to-[#EDF4C2];
+  }
 }

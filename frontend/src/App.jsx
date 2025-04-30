@@ -1,13 +1,16 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Page from "./pages/Page";
+import Page from "./pages/Home";
+import FocusModeContextProvider from "./contexts/FocusModeContextProvider";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Page />} />
-      </Routes>
+      <FocusModeContextProvider>
+        <Routes>
+          <Route path="/" element={<Page />} />
+        </Routes>
+      </FocusModeContextProvider>
     </BrowserRouter>
   );
 };
