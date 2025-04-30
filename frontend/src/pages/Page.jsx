@@ -1,5 +1,5 @@
+import MoodBoard from "@/components/MoodBoard";
 import React from "react";
-
 const Page = () => {
   return (
     <div>
