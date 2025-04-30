@@ -29,7 +29,7 @@ export default function Project() {
 
     return (
         <>
-            <h1>Projects</h1>
+            <h1 className="text-white text-5xl mb-6 font-bold text-center">Projects</h1>
             <div className="flex flex-wrap justify-around">
                 {projectData.map((project, index) => {
                     return <CardDemo key={index} img={project.img} title={project.title} description={project.description} />

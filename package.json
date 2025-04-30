@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "collabquest-2025": "file:",
     "styled-components": "^6.1.17"
   }
 }

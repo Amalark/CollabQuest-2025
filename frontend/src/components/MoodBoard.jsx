@@ -22,7 +22,7 @@ const highlightedColor = "lightpink";
 
 const MoodBoard = () => {
   return (
-    <div className="bg-orange-200 p-4 rounded-2xl flex flex-col shadow-xl m-4">
+    <div className="bg-orange-200 p-4 rounded-2xl flex flex-col shadow-xl my-12 m-4">
       <h1 className="text-2xl font-bold mb-4 text-center">Mood Board</h1>
 
       <div>
