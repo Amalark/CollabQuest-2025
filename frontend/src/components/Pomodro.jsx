@@ -39,7 +39,9 @@ const Pomodro = () => {
 
   return (
     <div className="flex flex-col gap-6 items-center justify-center mt-5">
-      <h1 className={`text-4xl font-bold text-white`}>Pomodro Timer</h1>
+      <h1 className={`text-4xl font-bold text-white text-shadow-md`}>
+        Pomodro Timer
+      </h1>
       <div>
         <div
           className={`flex flex-col gap-4 items-center justify-center p-10 px-16 ${
